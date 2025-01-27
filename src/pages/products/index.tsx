@@ -5,7 +5,10 @@ function Products () {
     return (
         <Box sx={{
             backgroundColor: "#EECFBB",
-            height: "120vh",
+            height: "100%",
+            "@media (max-width: 900px)":{
+                height: "120vh"
+            }
         }}>
             <div className={Styles.container}>
                 <h1 style={{ margin:'50px 0', textAlign:"center", fontFamily: 'secondFont', color: '#3d3b3a', letterSpacing: '5px', marginTop: '0', fontSize: '34px' }}>Peças</h1>

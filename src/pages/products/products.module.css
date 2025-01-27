@@ -19,9 +19,9 @@
     }
 }
 .container{
-    width: 90%;
+    width: 60%;
     margin: auto;
-    padding: 10px 0
+    padding: 10px 0;
 }
 
 .fotoGallery {
@@ -40,4 +40,20 @@
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
+}
+
+@media (max-width: 900px){
+
+    .container{
+        width: 90%;
+        margin: auto;
+        padding: 10px 0
+    }
+
+    .foto img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+    }
 }
